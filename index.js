@@ -36,7 +36,8 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Listening to Spotify","Watching YouTube"];
+const statusMessages = ["Aktif Sunucu sayısı: ${client.guilds.cache.size}","Aktif Kullanıcı sayısı: ${client.users.cache.size}","Prefix: A!","A!yardım Yazarak Tüm Komutlara Erişebilirsiniz!","];
+
 
 
 let currentIndex = 0;
